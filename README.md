@@ -1,19 +1,19 @@
 # FastAPI WebSocket Messages
 
-Web application built with FastAPI that uses WebSocket for real-time messaging with sequential numbering.
+Веб-приложение на FastAPI с использованием WebSocket для обмена сообщениями в реальном времени с последовательной нумерацией.
 
-## Features
+## Функционал
 
-- Form with text input for sending messages
-- Numbered message list (starting from 1)
-- WebSocket connection to server
-- Server accepts message and assigns sequential number
-- Numbered message sent back to page and displayed in list
-- Message numbering resets on page reload (starts from 1)
-- Fully dynamic page - no page reloads on message send
-- JSON-based WebSocket communication
+- Форма с текстовым полем для отправки сообщений
+- Список сообщений с нумерацией начиная с 1
+- Подключение к серверу по WebSocket
+- Сервер принимает сообщение и присваивает порядковый номер
+- Сообщение с номером отправляется обратно на страницу и отображается в списке
+- При перезагрузке страницы нумерация сбрасывается (начинается с 1)
+- Полностью динамическая страница — без перезагрузки при отправке сообщения
+- Взаимодействие по WebSocket реализовано через JSON
 
-## Installation
+## Установка
 
 ```bash
 git clone https://github.com/agronom28-crypto/fastapi-websocket-messages.git
@@ -21,15 +21,15 @@ cd fastapi-websocket-messages
 pip install -r requirements.txt
 ```
 
-## Run
+## Запуск
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Open http://127.0.0.1:8000 in your browser.
+Откройте http://127.0.0.1:8000 в браузере.
 
-## Tech Stack
+## Стек технологий
 
 - Python 3.10+
 - FastAPI
